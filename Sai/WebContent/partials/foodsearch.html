@@ -1,0 +1,132 @@
+<div id="pageheader" >
+	<h4>Search Food</h4>
+</div>
+<hr>
+
+<div class="container">
+	<form role="form" class="form-horizontal">
+		<div class="form-group col-sm-5">
+			<label class="col-sm-12" for="searchtext"><b>Enter One or
+					more terms</b></label>
+			<div class="col-sm-12">
+				<input type="text" class="form-control" id="searchtext">
+			</div>
+		</div>
+		<div class="form-group col-sm-3">
+			<label class="col-sm-12" for="fg"><b>Limit to Food Group</b></label>
+			<div class="col-sm-12">
+				<select class="form-control" ng-model="appSelect" id="fg">
+					<option value="" selected>All Food Groups ...</option>
+					<option value="American Indian/Alaska native foods">American
+						Indian/Alaska native foods</option>
+					<option value="Baby Foods">Baby Foods</option>
+					<option value="Baked Products">Baked Products</option>
+					<option value="Beef Products">Beef Products</option>
+					<option value="Beverages">Beverages</option>
+					<option value="Breakfast Cereals">Breakfast Cereals</option>
+					<option value="Cereal Grains and Pasta">Cereal Grains and
+						Pasta</option>
+					<option value="Dairy and Egg Products">Dairy and Egg
+						Products</option>
+					<option value="Fast Foods">Fast Foods</option>
+					<option value="Fats and Oils">Fats and Oils</option>
+					<option value="Finfish and Shellfish Products">Finfish
+						and Shellfish Products</option>
+					<option value="Fruits and Fruit Juices">Fruits and Fruit
+						Juices</option>
+					<option value="Lamb, Veal and Game Products">Lamb, Veal
+						and Game Products</option>
+					<option value="Legumes and Legume Products">Legumes and
+						Legume Products</option>
+					<option value="Pork Products">Pork Products</option>
+					<option value="Meals, Entrees and Side Dishes">Meals,
+						Entrees and Side Dishes</option>
+					<option value="Nut and Seed Products">Nut and Seed
+						Products</option>
+					<option value="Poultry Products">Poultry Products</option>
+					<option value="Snacks">Snacks</option>
+
+				</select>
+			</div>
+		</div>
+		<div class="form-group col-sm-4">
+			<label class="col-sm-8" for="manufacturer"><b>Limit to
+					Manufacturer</b></label>
+			<div class="col-sm-8">
+				<select class="form-control" ng-model="appSelect" id="manufacturer">
+					<option value="" selected>All Manufacturers ...</option>
+					<option value="ADM KAO LLC">ADM KAO LLC</option>
+					<option value="Ancient Harvest">Ancient Harvest</option>
+				</select>
+			</div>
+			<div class="col-sm-4">
+				<button class="btn btn-default btn-sm">Go</button>
+			</div>
+		</div>
+		<div class="col-sm-11" style="padding-top: 30px;">
+			<table st-table="rowCollection"
+				class="table table-striped table-hover table-condensed">
+				<thead>
+					<tr>
+						<th>NBD No.</th>
+						<th>Description</th>
+						<th>Food Group</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01001</td>
+						<td>Butter, salted</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01002</td>
+						<td>Butter, whipped, with salt</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>
+						<td>01003</td>
+						<td>Butter oil, anhydrous</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01004</td>
+						<td>Cheese, blue</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>
+						<td>01005</td>
+						<td>Cheese, brick</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01006</td>
+						<td>Cheese, brie</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01007</td>
+						<td>Cheese, camembert</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01008</td>
+						<td>Cheese, caraway</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>	
+						<td>01009</td>
+						<td>Cheese, cheddar</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+					<tr>
+						<td>01010</td>
+						<td>Cheese, cheshire</td>
+						<td>Dairy and Egg Products</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</form>
+
+</div>

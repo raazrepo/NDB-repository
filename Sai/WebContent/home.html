@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>NDB Food Reports</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap-custom.css">
+<link rel="stylesheet" type="text/css" href="./css/app.css">
+
+</head>
+
+<body ng-app="ndbApp" ng-controller="homeController"
+	style="overflow: hidden">
+	<div>
+		<div class="navbar navbar-fixed-top navbar-default ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+					<!-- <span><img src="./images/USDA-Logo.jpg"/></span> -->
+						National Nutrient Database for Standard Reference Release 27</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 col-md-2 sidebar">
+					<div id="button">
+					  <ul>
+					    <li><a ui-sref="ndlhome">NDL Home</a></li>
+					    <li><a ui-sref="searchfood">Food Search</a></li>
+					    <li><a ui-sref="nutrientslist">Nutrients List</a></li>
+					    
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<div>
+						<div ui-view id="responseContent"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- AngularJS, Bootstrap & Application related Scripts -->
+	<script src="./lib/angular-1.4.3/angular.js"></script>
+	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./lib/angular-1.4.3/ui-bootstrap-tpls-0.13.3.js"></script>
+	<script src="./lib/angular-1.4.3/angular-ui-router.js"></script>
+
+
+
+	<script src="./appscripts/app.js"></script>
+	<script src="./appscripts/services.js"></script>
+	<script src="./appscripts/controllers.js"></script>
+</body>
+
+</html>
+
+<!-- class="ui-state-disabled" To disable any UI element-->

@@ -1,0 +1,201 @@
+<div id="pageheader" ng-cloak>
+	<h4>Nutrients List</h4>
+</div>
+<hr>
+<p>You may select up to three nutrients to include in your report.
+	You may limit the foods which are included in your report by selecting
+	the Abridged List subset and/or one or more food groups.</p>
+<br />
+
+<form role="form" class="form-horizontal">
+	<div class="form-group row">
+		<label for="fn" class="col-sm-2 form-control-label"><span
+			style="color: red; font-size: 11pt;">*</span>First Nutrient</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="fn">
+				<option value="" selected>Select Nutrient ...</option>
+				<option value="American Indian/Alaska native foods">American
+					Indian/Alaska native foods</option>
+				<option value="Baby Foods">Baby Foods</option>
+				<option value="Baked Products">Baked Products</option>
+				<option value="Beef Products">Beef Products</option>
+				<option value="Beverages">Beverages</option>
+				<option value="Breakfast Cereals">Breakfast Cereals</option>
+				<option value="Cereal Grains and Pasta">Cereal Grains and
+					Pasta</option>
+				<option value="Dairy and Egg Products">Dairy and Egg
+					Products</option>
+				<option value="Fast Foods">Fast Foods</option>
+				<option value="Fats and Oils">Fats and Oils</option>
+				<option value="Finfish and Shellfish Products">Finfish and
+					Shellfish Products</option>
+				<option value="Fruits and Fruit Juices">Fruits and Fruit
+					Juices</option>
+				<option value="Lamb, Veal and Game Products">Lamb, Veal and
+					Game Products</option>
+				<option value="Legumes and Legume Products">Legumes and
+					Legume Products</option>
+				<option value="Pork Products">Pork Products</option>
+				<option value="Meals, Entrees and Side Dishes">Meals,
+					Entrees and Side Dishes</option>
+				<option value="Nut and Seed Products">Nut and Seed Products</option>
+				<option value="Poultry Products">Poultry Products</option>
+				<option value="Snacks">Snacks</option>
+
+			</select>
+
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="sn" class="col-sm-2 form-control-label">Second
+			Nutrient</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="sn">
+				<option value="" selected>Select Nutrient ...</option>
+				<option value="American Indian/Alaska native foods">American
+					Indian/Alaska native foods</option>
+				<option value="Baby Foods">Baby Foods</option>
+				<option value="Baked Products">Baked Products</option>
+				<option value="Beef Products">Beef Products</option>
+				<option value="Beverages">Beverages</option>
+				<option value="Breakfast Cereals">Breakfast Cereals</option>
+				<option value="Cereal Grains and Pasta">Cereal Grains and
+					Pasta</option>
+				<option value="Dairy and Egg Products">Dairy and Egg
+					Products</option>
+				<option value="Fast Foods">Fast Foods</option>
+				<option value="Fats and Oils">Fats and Oils</option>
+				<option value="Finfish and Shellfish Products">Finfish and
+					Shellfish Products</option>
+				<option value="Fruits and Fruit Juices">Fruits and Fruit
+					Juices</option>
+				<option value="Lamb, Veal and Game Products">Lamb, Veal and
+					Game Products</option>
+				<option value="Legumes and Legume Products">Legumes and
+					Legume Products</option>
+				<option value="Pork Products">Pork Products</option>
+				<option value="Meals, Entrees and Side Dishes">Meals,
+					Entrees and Side Dishes</option>
+				<option value="Nut and Seed Products">Nut and Seed Products</option>
+				<option value="Poultry Products">Poultry Products</option>
+				<option value="Snacks">Snacks</option>
+
+			</select>
+
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="tn" class="col-sm-2 form-control-label">Third
+			Nutrient</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="tn">
+				<option value="" selected>Select Nutrient ...</option>
+				<option value="American Indian/Alaska native foods">American
+					Indian/Alaska native foods</option>
+				<option value="Baby Foods">Baby Foods</option>
+				<option value="Baked Products">Baked Products</option>
+				<option value="Beef Products">Beef Products</option>
+				<option value="Beverages">Beverages</option>
+				<option value="Breakfast Cereals">Breakfast Cereals</option>
+				<option value="Cereal Grains and Pasta">Cereal Grains and
+					Pasta</option>
+				<option value="Dairy and Egg Products">Dairy and Egg
+					Products</option>
+				<option value="Fast Foods">Fast Foods</option>
+				<option value="Fats and Oils">Fats and Oils</option>
+				<option value="Finfish and Shellfish Products">Finfish and
+					Shellfish Products</option>
+				<option value="Fruits and Fruit Juices">Fruits and Fruit
+					Juices</option>
+				<option value="Lamb, Veal and Game Products">Lamb, Veal and
+					Game Products</option>
+				<option value="Legumes and Legume Products">Legumes and
+					Legume Products</option>
+				<option value="Pork Products">Pork Products</option>
+				<option value="Meals, Entrees and Side Dishes">Meals,
+					Entrees and Side Dishes</option>
+				<option value="Nut and Seed Products">Nut and Seed Products</option>
+				<option value="Poultry Products">Poultry Products</option>
+				<option value="Snacks">Snacks</option>
+
+			</select>
+
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="fss" class="col-sm-2 form-control-label">Food
+			Subset</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="fss">
+				<option value="All Foods" selected>All Foods</option>
+				<option value="Abridges List">Abridged List</option>
+
+			</select>
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="fg" class="col-sm-2 form-control-label">Food
+			Groups</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="fg">
+				<option value="" selected>All Food Groups ...</option>
+				<option value="American Indian/Alaska native foods">American
+					Indian/Alaska native foods</option>
+				<option value="Baby Foods">Baby Foods</option>
+				<option value="Baked Products">Baked Products</option>
+				<option value="Beef Products">Beef Products</option>
+				<option value="Beverages">Beverages</option>
+				<option value="Breakfast Cereals">Breakfast Cereals</option>
+				<option value="Cereal Grains and Pasta">Cereal Grains and
+					Pasta</option>
+				<option value="Dairy and Egg Products">Dairy and Egg
+					Products</option>
+				<option value="Fast Foods">Fast Foods</option>
+				<option value="Fats and Oils">Fats and Oils</option>
+				<option value="Finfish and Shellfish Products">Finfish and
+					Shellfish Products</option>
+				<option value="Fruits and Fruit Juices">Fruits and Fruit
+					Juices</option>
+				<option value="Lamb, Veal and Game Products">Lamb, Veal and
+					Game Products</option>
+				<option value="Legumes and Legume Products">Legumes and
+					Legume Products</option>
+				<option value="Pork Products">Pork Products</option>
+				<option value="Meals, Entrees and Side Dishes">Meals,
+					Entrees and Side Dishes</option>
+				<option value="Nut and Seed Products">Nut and Seed Products</option>
+				<option value="Poultry Products">Poultry Products</option>
+				<option value="Snacks">Snacks</option>
+
+			</select>
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="sby" class="col-sm-2 form-control-label">Sort By</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="sby">
+				<option value="Food Name" selected>Food Name</option>
+				<option value="Nutrient Content">Nutrient Content</option>
+
+			</select>
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="mby" class="col-sm-2 form-control-label">Measure
+			By</label>
+		<div class="col-sm-4">
+			<select class="form-control" id="mby">
+				<option value="House hold" selected>House hold</option>
+				<option value="100grams">100 grams</option>
+
+			</select>
+		</div>
+	</div>
+	<div>
+		<button class="btn btn-default btn-sm">Go</button>
+		<button class="btn btn-default btn-sm">Reset</button>
+	</div>
+
+
+
+</form>
